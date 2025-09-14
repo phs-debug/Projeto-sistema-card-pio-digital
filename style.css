@@ -1,59 +1,13 @@
-/* ===== RESET E FONTES ===== */
-body, html {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: "Amatic SC", sans-serif;
-}
+body, html {height: 100%}
 
-/* ===== MENU OCULTO ===== */
-.menu {
-  display: none;
-}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
 
-/* ===== HEADER COM BACKGROUND ===== */
 .bgimg {
-  background-image: url("img/wallpaper.jpg"); /* caminho relativo da imagem */
   background-repeat: no-repeat;
   background-size: cover;
+  background-image: url('img/wallpaper.jpg');
   background-position: center;
-  min-height: 100vh; /* ocupa toda a altura da tela */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* ===== IMAGENS INTERNAS ===== */
-img {
+  min-height: 100vh;
   max-width: 100%;
-  height: auto;
-  display: block;
 }
-
-/* ===== NAVBAR ===== */
-.w3-bar .w3-bar-item {
-  white-space: nowrap;
-}
-  /* Faz colunas do cardápio ficarem empilhadas */
-  .w3-col {
-    width: 100% !important;
-    margin-bottom: 10px;
-  }
-
-  /* Navbar pequena */
-  .w3-bar.w3-xlarge {
-    font-size: 16px !important;
-  }
-
-/* ===== RESPONSIVIDADE MOBILE ===== */
-@media (max-width: 600px) {
-  /* Ajusta fontes grandes */
-  h1 { font-size: 28px; }
-  h2 { font-size: 22px; }
-  h3 { font-size: 18px; }
-  .w3-xxlarge { font-size: 20px; }
-  .w3-jumbo { font-size: 30px; }
-  .w3-xlarge { font-size: 16px; }
-}
-
