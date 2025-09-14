@@ -35,17 +35,6 @@ img {
 .w3-bar .w3-bar-item {
   white-space: nowrap;
 }
-
-/* ===== RESPONSIVIDADE MOBILE ===== */
-@media (max-width: 600px) {
-  /* Ajusta fontes grandes */
-  h1 { font-size: 28px; }
-  h2 { font-size: 22px; }
-  h3 { font-size: 18px; }
-  .w3-xxlarge { font-size: 20px; }
-  .w3-jumbo { font-size: 30px; }
-  .w3-xlarge { font-size: 16px; }
-
   /* Faz colunas do cardápio ficarem empilhadas */
   .w3-col {
     width: 100% !important;
@@ -56,4 +45,15 @@ img {
   .w3-bar.w3-xlarge {
     font-size: 16px !important;
   }
+
+/* ===== RESPONSIVIDADE MOBILE ===== */
+@media (max-width: 600px) {
+  /* Ajusta fontes grandes */
+  h1 { font-size: 28px; }
+  h2 { font-size: 22px; }
+  h3 { font-size: 18px; }
+  .w3-xxlarge { font-size: 20px; }
+  .w3-jumbo { font-size: 30px; }
+  .w3-xlarge { font-size: 16px; }
 }
+
